@@ -1,0 +1,17 @@
+body .container-fluid {
+    margin: 20px 10%;
+    width: 80%;
+}
+
+.header {
+    margin-left: 75%;
+}
+
+a {
+    text-decoration: underline;
+    margin-left: 2%;
+}
+
+.info, .others {
+    margin-left: 10%;
+}

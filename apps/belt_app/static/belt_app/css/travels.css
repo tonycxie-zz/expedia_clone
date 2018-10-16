@@ -1,0 +1,55 @@
+body .container-fluid {
+    margin: 20px 10%;
+    width: 80%;
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 72%;
+}
+
+a {
+    text-decoration: underline;
+    margin-left: 2%;
+}
+
+h2 {
+    margin-top: 3%;
+}
+
+.your-trips .row, .other-trips .row {
+    border-left: 2px solid black;
+}
+
+.add-user {
+    margin-top: 30px;
+}
+
+.row .col-display {
+    border-right: 2px solid black;
+}
+
+.row:first-child {
+    background-color: #cccccc;
+    border-top: 2px solid black;
+}
+
+.row:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.row:last-child {
+    border-bottom: 2px solid black;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.join-trips {
+    margin-left: 5%;
+}
+
+.other-trips {
+    width: 90%;
+}

@@ -1,0 +1,35 @@
+body .container-fluid {
+    margin: 20px 10%;
+    width: 80%;
+}
+
+h1 {
+    display: inline-block;
+    margin-right: 72%;
+}
+
+a {
+    text-decoration: underline;
+    margin-left: 2%;
+}
+
+.container-fluid form {
+    margin-top: 2%;
+}
+
+.col-1, .col-2, .col-3 {
+    /* outline: 1px solid black; */
+    padding: 5px;
+}
+
+.filler {
+    height: 50px;
+}
+
+button {
+    float: right;
+}
+
+.error {
+    color: red;
+}

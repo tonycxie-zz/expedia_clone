@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'belt_app/css/view.css' %}">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <a href="/travels">Back</a>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+    <div class="info">
+        <h2>{{ trip.destination }}</h1>
+        <p>Planned By: {{ trip.planner.first_name }} {{ trip.planner.last_name }}</p>
+        <p>Description: {{ trip.desc }}</p>
+        <p>Travel Date From: {{ trip.start_date|date:"M d, Y" }}</p>
+        <p>Travel Date To: {{ trip.end_date|date:"M d, Y" }}</p>
+    </div>
+    <div class="others">
+        <h2>Other Users Joining The Trip</h2>
+        {% for joiner in joiners %}
+        <p>{{ joiner.first_name }} {{ joiner.last_name }}</p>
+        {% endfor %}
+    </div>
+</body>
+</html>

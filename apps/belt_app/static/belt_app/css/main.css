@@ -1,0 +1,35 @@
+body .container-fluid {
+    width: 80%;
+    margin: 20px 20%;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.registration, .login {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.registration {
+    width: 500px;
+}
+
+.login {
+    width: 500px;
+    margin-left: 50px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    margin: 0;
+}
