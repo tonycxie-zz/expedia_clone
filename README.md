@@ -1,4 +1,4 @@
-Expedia/Traveling Replica:
+Expedia/Traveling Clone:
 ==============
 A simple Python full-stack website using Django as the Back-end framework and SQLite as the Database.
 
